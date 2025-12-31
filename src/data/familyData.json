@@ -1,0 +1,487 @@
+{
+  "familyName": "Our Family",
+  "familyMotto": "Unity Through Generations",
+  "familyLogo": "/images/family-crest.png",
+  "metadata": {
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-12-31",
+    "version": "1.0.0"
+  },
+  "rootCouple": {
+    "husband": {
+      "id": "root-h",
+      "name": "Siya",
+      "gender": "male",
+      "birthYear": 1935,
+      "deathYear": 2020,
+      "photo": "/images/william.jpg",
+      "birthPlace": "Boston, Massachusetts",
+      "occupation": "Factory Owner",
+      "tags": ["Founder", "Patriarch", "WWII Veteran"],
+      "bio": "William founded the Anderson Manufacturing Company in 1960. A decorated WWII veteran, he built the family legacy from humble beginnings. His dedication to hard work and family values shaped generations to come."
+    },
+    "wife": {
+      "id": "root-w",
+      "name": "Aththamma",
+      "gender": "female",
+      "birthYear": 1938,
+      "photo": "/images/eleanor.jpg",
+      "birthPlace": "New York City, New York",
+      "occupation": "Teacher",
+      "tags": ["Matriarch", "Educator", "Philanthropist"],
+      "bio": "Eleanor dedicated 40 years to education and raised five children. She established the Anderson Family Foundation which continues to support local schools and community programs."
+    },
+    "children": [
+      {
+        "id": "gen1-1",
+        "name": "Robert William Anderson",
+        "gender": "male",
+        "birthYear": 1958,
+        "photo": "/images/robert.jpg",
+        "birthPlace": "Boston, Massachusetts",
+        "location": "San Francisco, California",
+        "occupation": "CEO, Anderson Tech",
+        "tags": ["Business Executive", "Philanthropist", "First Born"],
+        "bio": "Robert expanded the family business into technology, transforming Anderson Manufacturing into Anderson Tech, a Fortune 500 company.",
+        "spouse": {
+          "id": "gen1-1s",
+          "name": "Margaret Chen Anderson",
+          "gender": "female",
+          "birthYear": 1960,
+          "photo": "/images/margaret.jpg",
+          "birthPlace": "San Francisco, California",
+          "occupation": "Doctor",
+          "tags": ["Physician", "Researcher"],
+          "bio": "Margaret is a renowned cardiologist and medical researcher at Stanford Medical Center."
+        },
+        "children": [
+          {
+            "id": "gen2-1",
+            "name": "David Robert Anderson",
+            "gender": "male",
+            "birthYear": 1985,
+            "photo": "/images/david.jpg",
+            "birthPlace": "San Francisco, California",
+            "location": "Seattle, Washington",
+            "occupation": "Software Engineer",
+            "tags": ["Tech Lead", "Innovator", "Marathon Runner"],
+            "bio": "David leads the AI division at Anderson Tech and has filed over 20 patents in machine learning.",
+            "spouse": {
+              "id": "gen2-1s",
+              "name": "Sarah Miller Anderson",
+              "gender": "female",
+              "birthYear": 1987,
+              "photo": "/images/sarah.jpg",
+              "occupation": "UX Designer",
+              "tags": ["Designer", "Artist"],
+              "bio": "Sarah is an award-winning UX designer who has shaped products used by millions."
+            },
+            "children": [
+              {
+                "id": "gen3-1",
+                "name": "Emma Grace Anderson",
+                "gender": "female",
+                "birthYear": 2012,
+                "photo": "/images/emma.jpg",
+                "location": "Seattle, Washington",
+                "tags": ["Student", "Pianist", "Chess Champion"],
+                "bio": "Emma is a talented young pianist and has won several regional chess championships.",
+                "children": []
+              },
+              {
+                "id": "gen3-2",
+                "name": "Lucas James Anderson",
+                "gender": "male",
+                "birthYear": 2015,
+                "photo": "/images/lucas.jpg",
+                "location": "Seattle, Washington",
+                "tags": ["Student", "Soccer Player"],
+                "bio": "Lucas loves soccer and dreams of becoming a professional player."
+              },
+              {
+                "id": "gen3-3",
+                "name": "Olivia Rose Anderson",
+                "gender": "female",
+                "birthYear": 2020,
+                "photo": "/images/olivia.jpg",
+                "location": "Seattle, Washington",
+                "tags": ["Toddler"],
+                "bio": "The newest addition to David's family, Olivia brings joy to everyone around her."
+              }
+            ]
+          },
+          {
+            "id": "gen2-2",
+            "name": "Jennifer Anne Anderson-Wright",
+            "gender": "female",
+            "birthYear": 1988,
+            "photo": "/images/jennifer.jpg",
+            "birthPlace": "San Francisco, California",
+            "location": "Boston, Massachusetts",
+            "occupation": "Professor",
+            "tags": ["Academic", "Author", "Historian"],
+            "bio": "Jennifer is a history professor at Harvard University and has authored three bestselling books on American industrial history.",
+            "spouse": {
+              "id": "gen2-2s",
+              "name": "Michael Wright",
+              "gender": "male",
+              "birthYear": 1985,
+              "photo": "/images/michael.jpg",
+              "occupation": "Architect",
+              "tags": ["Architect", "Designer"],
+              "bio": "Michael's architectural firm has designed sustainable buildings across the East Coast."
+            },
+            "children": [
+              {
+                "id": "gen3-4",
+                "name": "Sophia Wright",
+                "gender": "female",
+                "birthYear": 2016,
+                "photo": "/images/sophia.jpg",
+                "location": "Boston, Massachusetts",
+                "tags": ["Student", "Dancer"],
+                "bio": "Sophia is passionate about ballet and performs with the Boston Youth Ballet."
+              },
+              {
+                "id": "gen3-5",
+                "name": "Alexander Wright",
+                "gender": "male",
+                "birthYear": 2019,
+                "photo": "/images/alexander.jpg",
+                "location": "Boston, Massachusetts",
+                "tags": ["Preschooler"],
+                "bio": "Alexander loves building blocks and dinosaurs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gen1-2",
+        "name": "Elizabeth Anne Anderson-Garcia",
+        "gender": "female",
+        "birthYear": 1961,
+        "photo": "/images/elizabeth.jpg",
+        "birthPlace": "Boston, Massachusetts",
+        "location": "Miami, Florida",
+        "occupation": "Artist",
+        "tags": ["Painter", "Gallery Owner", "Art Collector"],
+        "bio": "Elizabeth's abstract paintings have been exhibited in galleries worldwide. She owns the Anderson-Garcia Gallery in Miami.",
+        "spouse": {
+          "id": "gen1-2s",
+          "name": "Carlos Garcia",
+          "gender": "male",
+          "birthYear": 1959,
+          "photo": "/images/carlos.jpg",
+          "birthPlace": "Miami, Florida",
+          "occupation": "Sculptor",
+          "tags": ["Artist", "Sculptor"],
+          "bio": "Carlos is an internationally recognized sculptor whose works are featured in public spaces across the Americas."
+        },
+        "children": [
+          {
+            "id": "gen2-3",
+            "name": "Isabella Garcia",
+            "gender": "female",
+            "birthYear": 1990,
+            "photo": "/images/isabella.jpg",
+            "location": "New York City, New York",
+            "occupation": "Fashion Designer",
+            "tags": ["Designer", "Entrepreneur", "Influencer"],
+            "bio": "Isabella founded her own fashion label 'IG Designs' which has been featured in Vogue and Elle.",
+            "spouse": {
+              "id": "gen2-3s",
+              "name": "James Thompson",
+              "gender": "male",
+              "birthYear": 1988,
+              "photo": "/images/james.jpg",
+              "occupation": "Investment Banker",
+              "tags": ["Finance", "Investor"],
+              "bio": "James is a managing director at Goldman Sachs."
+            },
+            "children": [
+              {
+                "id": "gen3-6",
+                "name": "Luna Thompson",
+                "gender": "female",
+                "birthYear": 2018,
+                "photo": "/images/luna.jpg",
+                "location": "New York City, New York",
+                "tags": ["Child"],
+                "bio": "Luna already shows her mother's creative flair.",
+                "children": [
+                  {
+                    "id": "gen4-1",
+                    "name": "Future Child (Example)",
+                    "gender": "female",
+                    "birthYear": 2045,
+                    "tags": ["Future Generation"],
+                    "bio": "This demonstrates the unlimited depth capability of the family tree. You can nest children infinitely.",
+                    "children": [
+                      {
+                        "id": "gen5-1",
+                        "name": "Deep Nested Child",
+                        "gender": "male",
+                        "birthYear": 2070,
+                        "tags": ["Very Deep", "Example"],
+                        "bio": "5th generation example - the tree can go as deep as needed.",
+                        "children": [
+                          {
+                            "id": "gen6-1",
+                            "name": "Even Deeper Child",
+                            "gender": "female",
+                            "birthYear": 2095,
+                            "tags": ["6th Generation"],
+                            "bio": "6th generation - demonstrating unlimited recursion capability."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "gen3-7",
+                "name": "Leo Thompson",
+                "gender": "male",
+                "birthYear": 2021,
+                "photo": "/images/leo.jpg",
+                "location": "New York City, New York",
+                "tags": ["Toddler"],
+                "bio": "Leo is a curious and energetic toddler."
+              }
+            ]
+          },
+          {
+            "id": "gen2-4",
+            "name": "Marco Garcia",
+            "gender": "male",
+            "birthYear": 1993,
+            "photo": "/images/marco.jpg",
+            "location": "Los Angeles, California",
+            "occupation": "Film Director",
+            "tags": ["Director", "Filmmaker", "Oscar Nominee"],
+            "bio": "Marco's debut feature film was nominated for three Academy Awards.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "gen1-3",
+        "name": "Thomas Edward Anderson",
+        "gender": "male",
+        "birthYear": 1964,
+        "photo": "/images/thomas.jpg",
+        "birthPlace": "Boston, Massachusetts",
+        "location": "Chicago, Illinois",
+        "occupation": "Lawyer",
+        "tags": ["Attorney", "Human Rights", "Professor"],
+        "bio": "Thomas is a renowned human rights attorney who has argued cases before the Supreme Court.",
+        "spouse": {
+          "id": "gen1-3s",
+          "name": "Patricia O'Brien Anderson",
+          "gender": "female",
+          "birthYear": 1966,
+          "photo": "/images/patricia.jpg",
+          "birthPlace": "Chicago, Illinois",
+          "occupation": "Judge",
+          "tags": ["Judge", "Legal Expert"],
+          "bio": "Patricia serves as a federal judge in the Northern District of Illinois."
+        },
+        "children": [
+          {
+            "id": "gen2-5",
+            "name": "Ryan Thomas Anderson",
+            "gender": "male",
+            "birthYear": 1992,
+            "photo": "/images/ryan.jpg",
+            "location": "Chicago, Illinois",
+            "occupation": "Doctor",
+            "tags": ["Surgeon", "Medical Innovator"],
+            "bio": "Ryan is a pioneering cardiac surgeon at Northwestern Memorial Hospital.",
+            "spouse": {
+              "id": "gen2-5s",
+              "name": "Amanda Lee Anderson",
+              "gender": "female",
+              "birthYear": 1993,
+              "photo": "/images/amanda.jpg",
+              "occupation": "Nurse Practitioner",
+              "tags": ["Healthcare", "Pediatrics"],
+              "bio": "Amanda specializes in pediatric care."
+            },
+            "children": [
+              {
+                "id": "gen3-8",
+                "name": "Ethan Ryan Anderson",
+                "gender": "male",
+                "birthYear": 2022,
+                "photo": "/images/ethan.jpg",
+                "location": "Chicago, Illinois",
+                "tags": ["Infant"],
+                "bio": "Ethan is the newest member of Ryan's family."
+              }
+            ]
+          },
+          {
+            "id": "gen2-6",
+            "name": "Katherine Rose Anderson",
+            "gender": "female",
+            "birthYear": 1995,
+            "photo": "/images/katherine.jpg",
+            "location": "Washington D.C.",
+            "occupation": "Political Analyst",
+            "tags": ["Politics", "Journalist", "TV Personality"],
+            "bio": "Katherine is a political commentator for CNN and has written for The New York Times."
+          },
+          {
+            "id": "gen2-7",
+            "name": "Andrew James Anderson",
+            "gender": "male",
+            "birthYear": 1999,
+            "photo": "/images/andrew.jpg",
+            "location": "Chicago, Illinois",
+            "occupation": "Law Student",
+            "tags": ["Student", "Athlete", "Debate Champion"],
+            "bio": "Andrew is completing his law degree at Yale and plans to follow his father into human rights law."
+          }
+        ]
+      },
+      {
+        "id": "gen1-4",
+        "name": "Catherine Marie Anderson-Kim",
+        "gender": "female",
+        "birthYear": 1968,
+        "photo": "/images/catherine.jpg",
+        "birthPlace": "Boston, Massachusetts",
+        "location": "Seoul, South Korea",
+        "occupation": "Diplomat",
+        "tags": ["Ambassador", "International Relations", "Linguist"],
+        "bio": "Catherine served as US Ambassador to South Korea and speaks five languages fluently.",
+        "spouse": {
+          "id": "gen1-4s",
+          "name": "Dr. Min-jun Kim",
+          "gender": "male",
+          "birthYear": 1965,
+          "photo": "/images/minjun.jpg",
+          "birthPlace": "Seoul, South Korea",
+          "occupation": "Professor",
+          "tags": ["Academic", "Economist"],
+          "bio": "Min-jun is a professor of economics at Seoul National University."
+        },
+        "children": [
+          {
+            "id": "gen2-8",
+            "name": "Grace Soo-yeon Kim",
+            "gender": "female",
+            "birthYear": 1996,
+            "photo": "/images/grace.jpg",
+            "location": "London, United Kingdom",
+            "occupation": "Investment Manager",
+            "tags": ["Finance", "MBA", "Globetrotter"],
+            "bio": "Grace works at a leading investment firm in London after completing her MBA at Oxford.",
+            "spouse": {
+              "id": "gen2-8s",
+              "name": "William Porter",
+              "gender": "male",
+              "birthYear": 1994,
+              "photo": "/images/william_p.jpg",
+              "occupation": "Barrister",
+              "tags": ["Lawyer", "British"],
+              "bio": "William is a barrister specializing in international law."
+            },
+            "children": [
+              {
+                "id": "gen3-9",
+                "name": "Charlotte Porter-Kim",
+                "gender": "female",
+                "birthYear": 2023,
+                "photo": "/images/charlotte.jpg",
+                "location": "London, United Kingdom",
+                "tags": ["Baby"],
+                "bio": "Charlotte is the first member of the family born in Europe."
+              }
+            ]
+          },
+          {
+            "id": "gen2-9",
+            "name": "Daniel Jae-won Kim",
+            "gender": "male",
+            "birthYear": 2000,
+            "photo": "/images/daniel.jpg",
+            "location": "Tokyo, Japan",
+            "occupation": "Game Developer",
+            "tags": ["Tech", "Gaming", "Entrepreneur"],
+            "bio": "Daniel founded a successful indie game studio in Tokyo that has released several hit mobile games."
+          }
+        ]
+      },
+      {
+        "id": "gen1-5",
+        "name": "Michael Patrick Anderson",
+        "gender": "male",
+        "birthYear": 1972,
+        "photo": "/images/michael_a.jpg",
+        "birthPlace": "Boston, Massachusetts",
+        "location": "Austin, Texas",
+        "occupation": "Musician",
+        "tags": ["Grammy Winner", "Producer", "Composer", "Youngest Child"],
+        "bio": "Michael is a Grammy-winning music producer and composer. His work spans film scores, pop albums, and classical compositions.",
+        "spouse": {
+          "id": "gen1-5s",
+          "name": "Rachel Torres Anderson",
+          "gender": "female",
+          "birthYear": 1975,
+          "photo": "/images/rachel.jpg",
+          "birthPlace": "Austin, Texas",
+          "occupation": "Singer",
+          "tags": ["Vocalist", "Songwriter"],
+          "bio": "Rachel is a jazz vocalist who has performed at major festivals worldwide."
+        },
+        "children": [
+          {
+            "id": "gen2-10",
+            "name": "Noah Michael Anderson",
+            "gender": "male",
+            "birthYear": 2002,
+            "photo": "/images/noah.jpg",
+            "location": "Austin, Texas",
+            "occupation": "Music Producer",
+            "tags": ["Producer", "DJ", "Electronic Music"],
+            "bio": "Noah has followed in his parents' footsteps and produces electronic music under the stage name 'Neon Noah'."
+          },
+          {
+            "id": "gen2-11",
+            "name": "Mia Rose Anderson",
+            "gender": "female",
+            "birthYear": 2005,
+            "photo": "/images/mia.jpg",
+            "location": "Austin, Texas",
+            "occupation": "Student",
+            "tags": ["Student", "Violinist", "Valedictorian"],
+            "bio": "Mia is a classical violinist studying at Juilliard."
+          },
+          {
+            "id": "gen2-12",
+            "name": "Jack William Anderson",
+            "gender": "male",
+            "birthYear": 2008,
+            "photo": "/images/jack.jpg",
+            "location": "Austin, Texas",
+            "tags": ["Student", "Drummer", "Band Leader"],
+            "bio": "Jack plays drums in his school's jazz band and dreams of starting his own band."
+          },
+          {
+            "id": "gen2-13",
+            "name": "Lily Grace Anderson",
+            "gender": "female",
+            "birthYear": 2012,
+            "photo": "/images/lily.jpg",
+            "location": "Austin, Texas",
+            "tags": ["Student", "Singer", "Theater"],
+            "bio": "Lily loves musical theater and has performed in several school productions."
+          }
+        ]
+      }
+    ]
+  }
+}

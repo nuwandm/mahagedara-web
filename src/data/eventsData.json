@@ -1,0 +1,79 @@
+{
+  "events": [
+    {
+      "id": "event-001",
+      "title": "Annual Family Reunion 2024",
+      "description": "Our biggest family gathering of the year! Three generations came together to celebrate our heritage, share stories, and create new memories. The event featured traditional games, a family talent show, and a delicious potluck dinner.",
+      "date": "2024-08-15",
+      "location": "Grandma's Estate, Colombo",
+      "type": "reunion",
+      "status": "past",
+      "coverImage": "/images/events/reunion-2024.jpg",
+      "googleDriveFolderId": "YOUR_GOOGLE_DRIVE_FOLDER_ID_HERE",
+      "tags": ["reunion", "summer", "all-generations"],
+      "organizer": "Family Events Committee",
+      "attendeeCount": 45
+    },
+    {
+      "id": "event-002",
+      "title": "Golden Wedding Anniversary",
+      "description": "Celebrating 50 years of love and togetherness. A magnificent celebration honoring the founding couple of our family tree.",
+      "date": "2024-03-20",
+      "location": "Grand Ballroom, Hilton Colombo",
+      "type": "celebration",
+      "status": "past",
+      "coverImage": "/images/events/anniversary-50.jpg",
+      "googleDriveFolderId": "YOUR_GOOGLE_DRIVE_FOLDER_ID_HERE",
+      "tags": ["anniversary", "milestone", "celebration"],
+      "organizer": "Event Planning Team",
+      "attendeeCount": 120
+    },
+    {
+      "id": "event-003",
+      "title": "Christmas Family Gathering 2024",
+      "description": "The whole family comes together for our annual Christmas celebration with gift exchange, carol singing, and festive dinner.",
+      "date": "2024-12-25",
+      "location": "Family Home, Kandy",
+      "type": "holiday",
+      "status": "past",
+      "coverImage": "/images/events/christmas-2024.jpg",
+      "googleDriveFolderId": "YOUR_GOOGLE_DRIVE_FOLDER_ID_HERE",
+      "tags": ["christmas", "holiday", "tradition"],
+      "organizer": "Aunty Mary",
+      "attendeeCount": 35
+    },
+    {
+      "id": "event-004",
+      "title": "New Year Celebration 2025",
+      "description": "Ring in the new year with the whole family! Join us for an evening of reflection, celebration, and hope for the year ahead.",
+      "date": "2025-01-01",
+      "location": "Beach Resort, Negombo",
+      "type": "celebration",
+      "status": "upcoming",
+      "tags": ["new-year", "celebration", "2025"],
+      "organizer": "Uncle John"
+    },
+    {
+      "id": "event-005",
+      "title": "Summer Family Picnic 2025",
+      "description": "Annual summer picnic at the national park. Fun activities for kids, barbecue lunch, and quality family time in nature.",
+      "date": "2025-06-15",
+      "location": "Yala National Park",
+      "type": "reunion",
+      "status": "upcoming",
+      "tags": ["summer", "outdoor", "picnic"],
+      "organizer": "Youth Committee"
+    },
+    {
+      "id": "event-006",
+      "title": "Grandpa's 80th Birthday",
+      "description": "A grand celebration for our beloved patriarch's 80th birthday. Join us for a day of honoring his legacy and creating new memories.",
+      "date": "2025-09-10",
+      "location": "Family Estate, Galle",
+      "type": "birthday",
+      "status": "upcoming",
+      "tags": ["birthday", "milestone", "celebration"],
+      "organizer": "Birthday Planning Committee"
+    }
+  ]
+}
