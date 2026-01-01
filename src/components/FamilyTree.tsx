@@ -207,22 +207,27 @@ export default function FamilyTree({ data }: FamilyTreeProps) {
 
       {/* Navigation */}
       <motion.nav
-        className="flex justify-center gap-4 mb-8"
+        className="flex justify-center gap-2 sm:gap-3 mb-6 sm:mb-8"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
+        aria-label="Main navigation"
       >
         <Link
           href="/"
-          className="px-5 py-2.5 rounded-xl bg-amber-500/20 text-amber-400 font-medium text-sm hover:bg-amber-500/30 transition-colors"
+          className="nav-link active"
+          aria-current="page"
         >
-          Family Tree
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+          </svg>
+          <span className="hidden sm:inline">Family</span> Tree
         </Link>
         <Link
           href="/events"
-          className="px-5 py-2.5 rounded-xl bg-white/10 text-white/70 font-medium text-sm hover:bg-white/20 hover:text-white transition-colors flex items-center gap-2"
+          className="nav-link"
         >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
           Events
